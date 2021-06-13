@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | FPCC-App</title>
+    <title>Unity WebGL Player | Pulse App</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="https://www.dropbox.com/sh/c053ydo8akqql7y/AADqKcC9OIAyOTzpKgdFwtapa/TemplateData/style.css">
+    <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -22,19 +22,19 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">FPCC-App</div>
+        <div id="unity-build-title">Pulse App</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-	  var loaderUrl = buildUrl + "/WebGL.loader.js";
+      var loaderUrl = buildUrl + "/WebGL2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGL.data.gz",
-        frameworkUrl: buildUrl + "/WebGL.framework.js.gz",
-        codeUrl: buildUrl + "/WebGL.wasm.gz",
+        dataUrl: buildUrl + "/WebGL2.data.gz",
+        frameworkUrl: buildUrl + "/WebGL2.framework.js.gz",
+        codeUrl: buildUrl + "/WebGL2.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "FPCC-App",
+        productName: "Pulse App",
         productVersion: "0.1",
       };
 
