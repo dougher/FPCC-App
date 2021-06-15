@@ -1,0 +1,14 @@
+{
+"companyName": "DefaultCompany",
+"productName": "FPCC-App",
+"dataUrl": "WebGL 2017.4.data.unityweb",
+"asmCodeUrl": "WebGL 2017.4.asm.code.unityweb",
+"asmMemoryUrl": "WebGL 2017.4.asm.memory.unityweb",
+"asmFrameworkUrl": "WebGL 2017.4.asm.framework.unityweb",
+"TOTAL_MEMORY": 16777216,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"dataUrl": "must-revalidate"}
+}
