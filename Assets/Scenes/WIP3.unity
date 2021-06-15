@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 12
+    serializedVersion: 10
     m_Resolution: 2
     m_BakeResolution: 40
     m_AtlasSize: 1024
@@ -62,7 +62,6 @@ LightmapSettings:
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
-    m_ExtractAmbientOcclusion: 0
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
@@ -77,16 +76,10 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
-    m_PVREnvironmentSampleCount: 500
-    m_PVREnvironmentReferencePointCount: 2048
-    m_PVRFilteringMode: 2
-    m_PVRDenoiserTypeDirect: 0
-    m_PVRDenoiserTypeIndirect: 0
-    m_PVRDenoiserTypeAO: 0
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
-    m_PVREnvironmentMIS: 0
+    m_PVRFilteringMode: 2
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
@@ -94,8 +87,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ExportTrainingData: 0
-    m_TrainingDataDestination: TrainingData
+    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -132,7 +124,6 @@ GameObject:
   - component: {fileID: 19360759}
   - component: {fileID: 19360758}
   - component: {fileID: 19360757}
-  - component: {fileID: 19360760}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -156,8 +147,8 @@ RectTransform:
   - {fileID: 1147938487}
   - {fileID: 283340995}
   - {fileID: 835282174}
-  m_Father: {fileID: 705507995}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -176,11 +167,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &19360758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,16 +183,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1331.78}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!223 &19360759
 Canvas:
   m_ObjectHideFlags: 0
@@ -224,1199 +208,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &19360760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19360755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7174a652004baed43b39101d78c36e46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uid: 0fc7f924-6a62-403c-bafc-30333e0c9c8e
-  currentVideo:
-    name: Glitch (329210455)
-    uri: /videos/329210455
-    tusUploadLink: 
-    id: 329210455
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  vimeoVideos:
-  - name: '---- Select a video ----'
-    uri: 
-    tusUploadLink: 
-    id: 0
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Vimeo OFFF Projection Mapping (331447933)
-    uri: /videos/331447933
-    tusUploadLink: 
-    id: 331447933
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Bubbles (331319640)
-    uri: /videos/331319640
-    tusUploadLink: 
-    id: 331319640
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Vimeo_OFFF_Rooms_v2 (331251315)
-    uri: /videos/331251315
-    tusUploadLink: 
-    id: 331251315
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Vimeo_OFFF_Bubbles_v2 (331250140)
-    uri: /videos/331250140
-    tusUploadLink: 
-    id: 331250140
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Vimeo_OFFF_Glitch_v2 (331247618)
-    uri: /videos/331247618
-    tusUploadLink: 
-    id: 331247618
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Vimeo_OFFF_Ariel_v2 (331246689)
-    uri: /videos/331246689
-    tusUploadLink: 
-    id: 331246689
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Synth.io WIP Walkthrough (330682435)
-    uri: /videos/330682435
-    tusUploadLink: 
-    id: 330682435
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: 360 (329630274)
-    uri: /videos/329630274
-    tusUploadLink: 
-    id: 329630274
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Vimeo - OFFF Projection Mapping Test (329214614)
-    uri: /videos/329214614
-    tusUploadLink: 
-    id: 329214614
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Rooms (329210480)
-    uri: /videos/329210480
-    tusUploadLink: 
-    id: 329210480
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Glitch (329210455)
-    uri: /videos/329210455
-    tusUploadLink: 
-    id: 329210455
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Bubbles (329210391)
-    uri: /videos/329210391
-    tusUploadLink: 
-    id: 329210391
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Ariel (329210310)
-    uri: /videos/329210310
-    tusUploadLink: 
-    id: 329210310
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Vimeo OFFF New Fabrication Mockup
-    uri: /videos/328747593
-    tusUploadLink: 
-    id: 328747593
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: test (328572534)
-    uri: /videos/328572534
-    tusUploadLink: 
-    id: 328572534
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Vimeo OFFF test (328257415)
-    uri: /videos/328257415
-    tusUploadLink: 
-    id: 328257415
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Low poly logo (327781516)
-    uri: /videos/327781516
-    tusUploadLink: 
-    id: 327781516
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: LKG Vimeo (326681809)
-    uri: /videos/326681809
-    tusUploadLink: 
-    id: 326681809
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Large file test (OSXEditor 2017.1.4f1) (326420860)
-    uri: /videos/326420860
-    tusUploadLink: 
-    id: 326420860
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Large file test (OSXEditor 2018.3.6f1) (326418690)
-    uri: /videos/326418690
-    tusUploadLink: 
-    id: 326418690
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Folder Test (OSXEditor 2018.3.6f1) (326418591)
-    uri: /videos/326418591
-    tusUploadLink: 
-    id: 326418591
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/326418559
-    tusUploadLink: 
-    id: 326418559
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/326418535
-    tusUploadLink: 
-    id: 326418535
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Screen Test (OSXEditor 2018.3.6f1) (326418508)
-    uri: /videos/326418508
-    tusUploadLink: 
-    id: 326418508
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: MainCamera Test (OSXEditor 2018.3.6f1) (326418468)
-    uri: /videos/326418468
-    tusUploadLink: 
-    id: 326418468
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Chunk Test (OSXEditor 2018.3.6f1) (326418417)
-    uri: /videos/326418417
-    tusUploadLink: 
-    id: 326418417
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Folder Test (OSXEditor 2018.2.14f1) (326417432)
-    uri: /videos/326417432
-    tusUploadLink: 
-    id: 326417432
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/326417391
-    tusUploadLink: 
-    id: 326417391
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/326417357
-    tusUploadLink: 
-    id: 326417357
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Screen Test (OSXEditor 2018.2.14f1) (326417326)
-    uri: /videos/326417326
-    tusUploadLink: 
-    id: 326417326
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: MainCamera Test (OSXEditor 2018.2.14f1) (326417300)
-    uri: /videos/326417300
-    tusUploadLink: 
-    id: 326417300
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Chunk Test (OSXEditor 2018.2.14f1) (326417243)
-    uri: /videos/326417243
-    tusUploadLink: 
-    id: 326417243
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Large file test (OSXEditor 2018.2.14f1) (326417155)
-    uri: /videos/326417155
-    tusUploadLink: 
-    id: 326417155
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/326416974
-    tusUploadLink: 
-    id: 326416974
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: MainCamera Test (OSXEditor 2018.2.14f1) (326416679)
-    uri: /videos/326416679
-    tusUploadLink: 
-    id: 326416679
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Chunk Test (OSXEditor 2018.2.14f1) (326416644)
-    uri: /videos/326416644
-    tusUploadLink: 
-    id: 326416644
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Folder Test (OSXEditor 2018.2.14f1) (325672606)
-    uri: /videos/325672606
-    tusUploadLink: 
-    id: 325672606
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/325672569
-    tusUploadLink: 
-    id: 325672569
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/325672545
-    tusUploadLink: 
-    id: 325672545
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Screen Test (OSXEditor 2018.2.14f1) (325672506)
-    uri: /videos/325672506
-    tusUploadLink: 
-    id: 325672506
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: MainCamera Test (OSXEditor 2018.2.14f1) (325672467)
-    uri: /videos/325672467
-    tusUploadLink: 
-    id: 325672467
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Chunk Test (OSXEditor 2018.2.14f1) (325672405)
-    uri: /videos/325672405
-    tusUploadLink: 
-    id: 325672405
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Birthday (324001683)
-    uri: /videos/324001683
-    tusUploadLink: 
-    id: 324001683
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Bi (324001682)
-    uri: /videos/324001682
-    tusUploadLink: 
-    id: 324001682
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: test4 (324001681)
-    uri: /videos/324001681
-    tusUploadLink: 
-    id: 324001681
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Cake (324001405)
-    uri: /videos/324001405
-    tusUploadLink: 
-    id: 324001405
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Untitled (323997910)
-    uri: /videos/323997910
-    tusUploadLink: 
-    id: 323997910
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Race (323997909)
-    uri: /videos/323997909
-    tusUploadLink: 
-    id: 323997909
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: race (323997908)
-    uri: /videos/323997908
-    tusUploadLink: 
-    id: 323997908
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Travel (323997660)
-    uri: /videos/323997660
-    tusUploadLink: 
-    id: 323997660
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Hip (323997309)
-    uri: /videos/323997309
-    tusUploadLink: 
-    id: 323997309
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: travel (323997192)
-    uri: /videos/323997192
-    tusUploadLink: 
-    id: 323997192
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Auto generated marketing video - Bike Shop (v1) (323794820)
-    uri: /videos/323794820
-    tusUploadLink: 
-    id: 323794820
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: itp   U+1F354 (322063174)
-    uri: /videos/322063174
-    tusUploadLink: 
-    id: 322063174
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: TestEventThinko (321767823)
-    uri: /videos/321767823
-    tusUploadLink: 
-    id: 321767823
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Folder Test (OSXEditor 2018.2.14f1) (321529342)
-    uri: /videos/321529342
-    tusUploadLink: 
-    id: 321529342
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/321529316
-    tusUploadLink: 
-    id: 321529316
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/321529291
-    tusUploadLink: 
-    id: 321529291
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Screen Test (OSXEditor 2018.2.14f1) (321529263)
-    uri: /videos/321529263
-    tusUploadLink: 
-    id: 321529263
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: MainCamera Test (OSXEditor 2018.2.14f1) (321529226)
-    uri: /videos/321529226
-    tusUploadLink: 
-    id: 321529226
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Chunk Test (OSXEditor 2018.2.14f1) (321529178)
-    uri: /videos/321529178
-    tusUploadLink: 
-    id: 321529178
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: New Unity Recorder Test (321517785)
-    uri: /videos/321517785
-    tusUploadLink: 
-    id: 321517785
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: testStreamFromAPI (320531441)
-    uri: /videos/320531441
-    tusUploadLink: 
-    id: 320531441
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: testStreamFromAPI (320527769)
-    uri: /videos/320527769
-    tusUploadLink: 
-    id: 320527769
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: testEvent (320526358)
-    uri: /videos/320526358
-    tusUploadLink: 
-    id: 320526358
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: testEvent (320517114)
-    uri: /videos/320517114
-    tusUploadLink: 
-    id: 320517114
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Creating Live event from an API request (320370706)
-    uri: /videos/320370706
-    tusUploadLink: 
-    id: 320370706
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Second test with Kenya (320364272)
-    uri: /videos/320364272
-    tusUploadLink: 
-    id: 320364272
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Testing with Kenya creating a live event (320363254)
-    uri: /videos/320363254
-    tusUploadLink: 
-    id: 320363254
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Untitled (320297769)
-    uri: /videos/320297769
-    tusUploadLink: 
-    id: 320297769
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Untitled (320297659)
-    uri: /videos/320297659
-    tusUploadLink: 
-    id: 320297659
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: UnityLiveStreamTest - Long Shot Camera (320292249)
-    uri: /videos/320292249
-    tusUploadLink: 
-    id: 320292249
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: UnityLiveStreamTest - Side Shot Camera (320292011)
-    uri: /videos/320292011
-    tusUploadLink: 
-    id: 320292011
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: UnityLiveStreamTest - Close Up Camera (320291760)
-    uri: /videos/320291760
-    tusUploadLink: 
-    id: 320291760
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: WindowsUnityLivestreamTest (320266469)
-    uri: /videos/320266469
-    tusUploadLink: 
-    id: 320266469
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Live Streaming from a Unity camera to the iOS Vimeo app (320041059)
-    uri: /videos/320041059
-    tusUploadLink: 
-    id: 320041059
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: TestingUnity (320039298)
-    uri: /videos/320039298
-    tusUploadLink: 
-    id: 320039298
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: UnityLiveStreamingTestUsingLibx264 (320024479)
-    uri: /videos/320024479
-    tusUploadLink: 
-    id: 320024479
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: UnityStreamingTest (319996562)
-    uri: /videos/319996562
-    tusUploadLink: 
-    id: 319996562
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Streaming_Desktop_Screen_From_CLI (319954329)
-    uri: /videos/319954329
-    tusUploadLink: 
-    id: 319954329
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Testing FFMPEG CLI streaming (319948301)
-    uri: /videos/319948301
-    tusUploadLink: 
-    id: 319948301
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Testing Livestreaming From Unity (319938732)
-    uri: /videos/319938732
-    tusUploadLink: 
-    id: 319938732
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Ford Focus AR (319537544)
-    uri: /videos/319537544
-    tusUploadLink: 
-    id: 319537544
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Large file test (WindowsEditor 2018.2.18f1) (317335709)
-    uri: /videos/317335709
-    tusUploadLink: 
-    id: 317335709
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Folder Test (WindowsEditor 2018.2.18f1) (317335632)
-    uri: /videos/317335632
-    tusUploadLink: 
-    id: 317335632
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/317335616
-    tusUploadLink: 
-    id: 317335616
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/317335599
-    tusUploadLink: 
-    id: 317335599
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Screen Test (WindowsEditor 2018.2.18f1) (317335583)
-    uri: /videos/317335583
-    tusUploadLink: 
-    id: 317335583
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: MainCamera Test (WindowsEditor 2018.2.18f1) (317335559)
-    uri: /videos/317335559
-    tusUploadLink: 
-    id: 317335559
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Chunk Test (WindowsEditor 2018.2.18f1) (317335515)
-    uri: /videos/317335515
-    tusUploadLink: 
-    id: 317335515
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Large file test (WindowsEditor 2017.4.16f1) (317330379)
-    uri: /videos/317330379
-    tusUploadLink: 
-    id: 317330379
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Folder Test (WindowsEditor 2017.4.16f1) (317330369)
-    uri: /videos/317330369
-    tusUploadLink: 
-    id: 317330369
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/317330353
-    tusUploadLink: 
-    id: 317330353
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/317330327
-    tusUploadLink: 
-    id: 317330327
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Screen Test (WindowsEditor 2017.4.16f1) (317330297)
-    uri: /videos/317330297
-    tusUploadLink: 
-    id: 317330297
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: MainCamera Test (WindowsEditor 2017.4.16f1) (317330257)
-    uri: /videos/317330257
-    tusUploadLink: 
-    id: 317330257
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Chunk Test (WindowsEditor 2017.4.16f1) (317330200)
-    uri: /videos/317330200
-    tusUploadLink: 
-    id: 317330200
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Large file test (WindowsEditor 5.6.4f1) (317329709)
-    uri: /videos/317329709
-    tusUploadLink: 
-    id: 317329709
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Folder Test (WindowsEditor 2018.2.18f1) (317329134)
-    uri: /videos/317329134
-    tusUploadLink: 
-    id: 317329134
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  - name: Multi Upload Test
-    uri: /videos/317329103
-    tusUploadLink: 
-    id: 317329103
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: mono
-    projection: 
-  currentFolder:
-    name: Most recent videos
-    uri: recent
-    id: 0
-  vimeoFolders:
-  - name: '---- Find a video ----'
-    uri: 
-    id: 0
-  - name: Get video by ID or URL
-    uri: custom
-    id: 0
-  - name: Most recent videos
-    uri: recent
-    id: 0
-  - name: Projects / Inside Vimeo
-    uri: /users/10945988/projects/438887
-    id: 438887
-  - name: Projects / Looking Glass
-    uri: /users/10945988/projects/510800
-    id: 510800
-  - name: Projects / Unity Tests
-    uri: /users/10945988/projects/640966
-    id: 640966
-  vimeoToken: 
-  buildMode: 0
-  vimeoSignIn: 1
-  signInError: 0
-  videoPlayerType: 0
-  selectedResolution: 2160
-  vimeoVideoId: 329210455
-  muteAudio: 0
-  autoPlay: 1
-  startTime: 0
-  videoScreen: {fileID: 0}
-  audioSource: {fileID: 0}
-  videoName: 
-  videoThumbnailUrl: 
-  authorThumbnailUrl: 
-  is3D: 0
-  videoProjection: 
-  videoStereoFormat: 
-  controller: {fileID: 0}
-  vimeoVideo:
-    name: 
-    uri: 
-    tusUploadLink: 
-    id: 0
-    description: 
-    duration: 0
-    width: 0
-    height: 0
-    is3D: 0
-    stereoFormat: 
-    projection: 
-  loadingVideoMetadata: 0
-  m_file_url: 
 --- !u!1 &108334115
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,8 +258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 2
 --- !u!114 &108334118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1487,8 +276,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Video 1 - SILOS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1534,7 +321,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1563,7 +350,7 @@ MonoBehaviour:
     spaceCount: 3
     wordCount: 4
     linkCount: 0
-    lineCount: 1
+    lineCount: 12
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -1638,24 +425,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5f923128801a05d4ea838a8426ceed1d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &123988298
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1717,8 +486,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 2
 --- !u!114 &283340997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1731,19 +498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 175
-    m_Right: 175
-    m_Top: 50
-    m_Bottom: 50
-  m_ChildAlignment: 4
-  m_Spacing: 0
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
 --- !u!114 &283340998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1756,50 +510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 283340999}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 540320529}
-        m_MethodName: Selection
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &283340999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1812,24 +522,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &283341000
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1888,50 +580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 363134104}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1874345023}
-        m_MethodName: TogglePlayState
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &363134104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1944,24 +592,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: fa0769fc02d360d4ca0be5041d4865e7, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &363134105
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2083,39 +713,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 564956038}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &564956038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2128,24 +725,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 64c1171126dd9dd49ac027905da012e0, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &564956039
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2179,13 +758,12 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -2195,24 +773,6 @@ Light:
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
@@ -2220,15 +780,12 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingLayerMask: 1
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &705507995
@@ -2241,8 +798,7 @@ Transform:
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 19360756}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
@@ -2304,7 +860,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2392,8 +947,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 2
 --- !u!114 &835282176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2406,19 +959,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 50
-    m_Right: 50
-    m_Top: 50
-    m_Bottom: 50
-  m_ChildAlignment: 4
-  m_Spacing: 0
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
 --- !u!114 &835282177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2431,50 +971,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 835282178}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 540320529}
-        m_MethodName: Selection
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &835282178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2487,24 +983,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &835282179
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2551,10 +1029,9 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
+  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -2589,13 +1066,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 294, y: 151, z: 261}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1021241676
 GameObject:
   m_ObjectHideFlags: 0
@@ -2627,24 +1104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.12156863}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!114 &1021241678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2744,39 +1203,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1026698512}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1026698512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2789,24 +1215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: eaca091125a4cfc478ea33630917a869, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1026698513
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2864,24 +1272,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!222 &1064910859
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2940,21 +1338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 8400000, guid: 94621c249194e2e449fec89464a1db0a, type: 2}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
 --- !u!222 &1147938489
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3012,24 +1395,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.47450984, g: 0.47450984, b: 0.47450984, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7fbe5c3770067a646b6707e16360a337, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1208260408
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3088,39 +1453,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1442937614}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1442937614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3133,24 +1465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: a498594e564389b438af5fcb5b149fd6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1442937615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3189,13 +1503,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
 --- !u!114 &1486064386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3208,9 +1515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
 --- !u!4 &1486064387
 Transform:
   m_ObjectHideFlags: 0
@@ -3272,27 +1576,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1612603664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5f923128801a05d4ea838a8426ceed1d, type: 3}
-  m_Type: 3
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 0
-  m_FillAmount: 0
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!222 &1612603667
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3367,24 +1655,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5f923128801a05d4ea838a8426ceed1d, type: 3}
-  m_Type: 3
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 0
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1768884318
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3642,8 +1912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 2
 --- !u!114 &1914024222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3662,8 +1930,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Video 2 - FRAGMENTS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3709,7 +1975,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -3738,7 +2004,7 @@ MonoBehaviour:
     spaceCount: 3
     wordCount: 4
     linkCount: 0
-    lineCount: 1
+    lineCount: 16
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -3821,24 +2087,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: fa04a17f3c8f661479617530b30c8a9f, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2051882995
 GameObject:
   m_ObjectHideFlags: 0
@@ -3888,24 +2140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5f923128801a05d4ea838a8426ceed1d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &2051882998
 CanvasRenderer:
   m_ObjectHideFlags: 0

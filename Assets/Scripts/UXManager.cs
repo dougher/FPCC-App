@@ -43,7 +43,7 @@ public class UXManager : MonoBehaviour
     private void Start() {
 		audioVisualManager = GameObject.FindObjectOfType<AVManager>();
 		videoCanvas.gameObject.SetActive(false);
-		quad.SetActive(false);
+		//quad.SetActive(false);
 
 		HideAllElements();
     }
