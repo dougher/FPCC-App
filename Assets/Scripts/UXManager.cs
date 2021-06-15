@@ -24,7 +24,7 @@ public class UXManager : MonoBehaviour
 	public Image[] buttons;
 
 	public VideoPlayer videoPlayer;
-	public VideoClip[] clips;
+	public string[] clips;
 
 	public float titleCardDuration = 1f;
 	public float fadeSpeed = 1f;
@@ -114,10 +114,10 @@ public class UXManager : MonoBehaviour
 
 		switch (selection){
 			case 0:
-				videoPlayer.clip = clips[0];
+				videoPlayer.url = clips[0];
 				break;
 			case 1:
-				videoPlayer.clip = clips[1];
+				videoPlayer.url = clips[1];
 				break;
 			case 2:
 				break;
