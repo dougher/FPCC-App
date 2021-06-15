@@ -3,8 +3,13 @@
 --- !u!159 &1
 EditorSettings:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 7
   m_ExternalVersionControlSupport: Hidden Meta Files
+=======
+  serializedVersion: 11
+  m_ExternalVersionControlSupport: Visible Meta Files
+>>>>>>> parent of 7c5380c (Remade project in 2019.4)
   m_SerializationMode: 2
   m_LineEndingsForNewScripts: 2
   m_DefaultBehaviorMode: 0
@@ -19,3 +24,14 @@ EditorSettings:
   m_UserGeneratedProjectSuffix: 
   m_CollabEditorSettings:
     inProgressEnabled: 1
+<<<<<<< HEAD
+=======
+  m_EnableTextureStreamingInEditMode: 1
+  m_EnableTextureStreamingInPlayMode: 1
+  m_AsyncShaderCompilation: 1
+  m_EnterPlayModeOptionsEnabled: 0
+  m_EnterPlayModeOptions: 3
+  m_ShowLightmapResolutionOverlay: 1
+  m_UseLegacyProbeSampleCount: 0
+  m_SerializeInlineMappingsOnOneLine: 1
+>>>>>>> parent of 7c5380c (Remade project in 2019.4)
