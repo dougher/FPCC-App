@@ -1,6 +1,2 @@
-<<<<<<< HEAD
-m_EditorVersion: 2017.4.33f1
-=======
 m_EditorVersion: 2020.3.11f1
 m_EditorVersionWithRevision: 2020.3.11f1 (99c7afb366b3)
->>>>>>> parent of 7c5380c (Remade project in 2019.4)

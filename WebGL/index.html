@@ -6,21 +6,6 @@
     <title>Unity WebGL Player | FPCC-App</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-<<<<<<< HEAD
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL 2017.4.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">FPCC-App</div>
-=======
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -38,20 +23,19 @@
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">FPCC-App</div>
->>>>>>> parent of 7c5380c (Remade project in 2019.4)
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-	  var loaderUrl = buildUrl + "/WebGL.loader.js";
+      var loaderUrl = buildUrl + "/WebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGL.data.gz",
-        frameworkUrl: buildUrl + "/WebGL.framework.js.gz",
-        codeUrl: buildUrl + "/WebGL.wasm.gz",
+        dataUrl: buildUrl + "/WebGL.data.br",
+        frameworkUrl: buildUrl + "/WebGL.framework.js.br",
+        codeUrl: buildUrl + "/WebGL.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "FPCC-App",
-        productVersion: "0.1",
+        productVersion: "1.0",
       };
 
       var container = document.querySelector("#unity-container");
