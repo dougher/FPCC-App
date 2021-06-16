@@ -6,5 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/TestVideoURL.unity
     guid: fb15fc1e0f6796f4aa734b11715022f0
+=======
+    path: Assets/Scenes/WIP2.unity
+    guid: 1eb4b143fce16314482f297477196e9d
+  m_configObjects: {}
+>>>>>>> parent of c01bdc1 (Update with working streaming file)
