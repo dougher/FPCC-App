@@ -21,7 +21,6 @@ public class UXManager : MonoBehaviour
 	public Image openingTitle;
 	public Image background;
 	public RawImage videoCanvas;
-	public GameObject quad;
 	public Image[] buttons;
 
 	public VideoPlayer videoPlayer;
@@ -43,7 +42,6 @@ public class UXManager : MonoBehaviour
     private void Start() {
 		audioVisualManager = GameObject.FindObjectOfType<AVManager>();
 		videoCanvas.gameObject.SetActive(false);
-		//quad.SetActive(false);
 
 		HideAllElements();
     }
@@ -217,7 +215,6 @@ public class UXManager : MonoBehaviour
 		yield return new WaitForSeconds(delay);
 
 		videoCanvas.gameObject.SetActive(true);
-		quad.SetActive(true);
 
 		audioVisualManager.SetAudioSource();
 
