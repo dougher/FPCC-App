@@ -20,7 +20,7 @@ public class UXManager : MonoBehaviour
 
 	public Image openingTitle;
 	public Image background;
-	public RawImage videoCanvas;
+	public GameObject videoCanvas;
 	public Image[] buttons;
 
 	public VideoPlayer videoPlayer;
@@ -41,7 +41,7 @@ public class UXManager : MonoBehaviour
 
     private void Start() {
 		audioVisualManager = GameObject.FindObjectOfType<AVManager>();
-		videoCanvas.gameObject.SetActive(false);
+		videoCanvas.SetActive(false);
 
 		HideAllElements();
     }
@@ -214,7 +214,7 @@ public class UXManager : MonoBehaviour
 	private IEnumerator PlayVideo(float delay){
 		yield return new WaitForSeconds(delay);
 
-		videoCanvas.gameObject.SetActive(true);
+		videoCanvas.SetActive(true);
 
 		audioVisualManager.SetAudioSource();
 
@@ -222,6 +222,8 @@ public class UXManager : MonoBehaviour
 		while (videoPlayer.frameCount == 0){
 			yield return null;
 		}
+
+		background.gameObject.SetActive(false);
 
 
 	}
