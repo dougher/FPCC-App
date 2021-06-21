@@ -652,7 +652,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.10156263, y: 0.36134166}
   m_AnchorMax: {x: 0.10156263, y: 0.5}
-  m_AnchoredPosition: {x: -81, y: 10}
+  m_AnchoredPosition: {x: 84, y: 10}
   m_SizeDelta: {x: 115, y: 81.079994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &363134103
@@ -779,13 +779,13 @@ MonoBehaviour:
   previousState: 1
   openingTitle: {fileID: 1953919478}
   background: {fileID: 1064910858}
-  videoCanvas: {fileID: 1647649115}
+  videoCanvas: {fileID: 1147938486}
   buttons:
   - {fileID: 283340999}
   - {fileID: 835282178}
   videoPlayer: {fileID: 1874345021}
   clips:
-  - https://player.vimeo.com/external/563323375.hd.mp4?s=376c23d791c73152c1b404e28ace50940fc2a2aa&profile_id=175
+  - {fileID: 32900000, guid: f31f77b0a21f8324f8e51a484d9e3ce6, type: 3}
   titleCardDuration: 0.5
   fadeSpeed: 0.5
   currentFade: 0
@@ -1224,8 +1224,8 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1578,7 +1578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1147938487
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2000,7 +2000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1647649116
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2202,9 +2202,9 @@ VideoPlayer:
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 1647649117}
   m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 3
+  m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 1
   m_TargetAudioSources:
